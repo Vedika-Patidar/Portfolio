@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="active">
       <a href="#" class="logo">Vedika.</a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav>
@@ -30,6 +30,17 @@
         <a href="#">Contact</a>
       </nav>
     </header>
+
+    <!-- bars background -->
+
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
 
     <!-- home section  -->
     <section class="home active">
@@ -48,10 +59,14 @@
           updated with the latest web technologies.
         </p>
         <div class="btn-sci">
-          <a href="#" class="btn">Download Resume</a>
+          <a href="images/RESUME (4).pdf" class="btn">Download Resume</a>
           <div class="sci">
-            <a href="#"><i class="bx bxl-github"></i></a>
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Vedika-Patidar"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/vedika-patidar-286370268"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -178,6 +193,178 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project section -->
+
+    <section class="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="projects-container">
+        <div class="projects-box">
+          <div class="projects-detail active">
+            <p class="numb">01</p>
+            <h3>Study Notion</h3>
+            <p>
+              StudyNotion is an education platform which helps students learn
+              interactively and connects them with skilled instructors. It
+              allows creating, taking, and rating courses easily.
+            </p>
+            <div class="tech">
+              <p>ReactJS, ExpressJS, NodeJS, MongoDB</p>
+            </div>
+            <div class="live-github">
+              <a href="https://studynotion-ed-tech.netlify.app/"
+                ><i class="bx bxs-right-top-arrow-circle"></i
+                ><span>Live Project</span></a
+              >
+              <a
+                href="https://github.com/Vedika-Patidar/Study-Notion---Major-Project--MERN-Stack-.git"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="projects-detail">
+            <p class="numb">02</p>
+            <h3>FoodieFleet</h3>
+            <p>
+              Developed a responsive and user-friendly food delivery frontend
+              application that allows users to explore menus, place orders, and
+              manage their cart efficiently.
+            </p>
+            <div class="tech">
+              <p>ReactJS, JavaScript, HTML, CSS, React Router Dom</p>
+            </div>
+            <div class="live-github">
+              <!-- <a href="#"
+                ><i class='bx bxs-right-top-arrow-circle'></i><span>Live Project</span></a
+              > -->
+              <a href="https://github.com/Vedika-Patidar/FoodieFleet.git"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="projects-detail">
+            <p class="numb">03</p>
+            <h3>Weather Application</h3>
+            <p>
+              A weather application provides real-time weather information,
+              including current conditions, forecasts, and detailed data such as
+              temperature, humidity, wind speed, and precipitation.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript, ReactJS, OpenWeather API</p>
+            </div>
+            <div class="live-github">
+              <!-- <a href="#"
+                ><i class='bx bxs-right-top-arrow-circle'></i><span>Live Project</span></a
+              > -->
+              <a href="https://github.com/Vedika-Patidar/weather_app.git"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="projects-detail">
+            <p class="numb">04</p>
+            <h3>OMDB Movie Application</h3>
+            <p>
+              The OMDb Movie API application allows users to search for movies,
+              view detailed information, and browse posters based on titles. It
+              fetches data from the OMDb API to provide real-time movie details
+              like cast, ratings, and plot summaries.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript, ReactJS, OMDB API</p>
+            </div>
+            <div class="live-github">
+              <!-- <a href="#"
+                ><i class='bx bxs-right-top-arrow-circle'></i><span>Live Project</span></a
+              > -->
+              <a href="https://github.com/Vedika-Patidar/OMDB_Movie_API.git"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <!-- image corousal -->
+          <div class="project-carousal">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="images/study_notion.png" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="images/foodieFleet.png" alt="" />
+              </div>
+              <div class="img-item">
+                <img
+                  src="images/resize-1733313254191684404weatherapp.png"
+                  alt=""
+                />
+              </div>
+              <div class="img-item">
+                <img src="images/Movies.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact page -->
+
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <div class="contact-detail">
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>+91 74708 45055</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="bx bxs-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>vedika10patidar@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="bx bxs-map"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>Bangalore, Karnataka</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form action="https://formspree.io/f/xjkvlpgo" method="post">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Name" name="name" required />
+              <input type="email" placeholder="Email" name="email" required />
+              <input type="text" placeholder="Number" name="number" required />
+              <textarea name="" id="" placeholder="Message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
         </div>
       </div>
     </section>
